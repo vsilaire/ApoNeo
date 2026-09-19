@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/victorS/Documents/Projets/perso/ApoNeo/build/cmake_install.cmake",
+		"/Users/victorS/Documents/Projets/perso/ApoNeo/build/src/core/cmake_install.cmake",
+		"/Users/victorS/Documents/Projets/perso/ApoNeo/build/src/engine/cmake_install.cmake",
+		"/Users/victorS/Documents/Projets/perso/ApoNeo/build/src/ui/cmake_install.cmake",
+		"/Users/victorS/Documents/Projets/perso/ApoNeo/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,15 @@
+ApoNeoCore_autogen/timestamp: \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Affine2D.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Affine2D.hpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/CMakeLists.txt \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/FlameGenome.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/FlameGenome.hpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/FlameXml.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/FlameXml.hpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Palette.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Palette.hpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Variation.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Variation.hpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Xform.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Xform.hpp \
+	/opt/homebrew/bin/cmake

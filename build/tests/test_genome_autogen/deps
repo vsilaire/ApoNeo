@@ -1,0 +1,4 @@
+test_genome_autogen/timestamp: \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/tests/CMakeLists.txt \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/tests/test_genome.cpp \
+	/opt/homebrew/bin/cmake
