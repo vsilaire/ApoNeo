@@ -57,6 +57,9 @@ public:
     const std::vector<double>& cumulative_weights() const noexcept { return m_cumulative_weights; }
     double total_weight() const noexcept { return m_total_weight; }
 
+    /// @brief Smoothly interpolate between two genomes for animation morphing (flam3-animate style)
+    static FlameGenome interpolate(const FlameGenome& g1, const FlameGenome& g2, double t);
+
     /// @brief Preset flames
     static FlameGenome preset_sierpinski();
     static FlameGenome preset_barnsley_fern();

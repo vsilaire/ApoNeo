@@ -12,15 +12,57 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/AnimationWidget.hpp",
+			"MU",
+			"EWIEGA46WW/moc_AnimationWidget.cpp",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/ExportDialog.hpp",
+			"MU",
+			"EWIEGA46WW/moc_ExportDialog.cpp",
+			null
+		],
+		[
 			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/FlameCanvasWidget.hpp",
 			"MU",
 			"EWIEGA46WW/moc_FlameCanvasWidget.cpp",
 			null
 		],
 		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/FlameInspectorWidget.hpp",
+			"MU",
+			"EWIEGA46WW/moc_FlameInspectorWidget.cpp",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/FlameListWidget.hpp",
+			"MU",
+			"EWIEGA46WW/moc_FlameListWidget.cpp",
+			null
+		],
+		[
 			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/MainWindow.hpp",
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/TransformEditorWidget.hpp",
+			"MU",
+			"EWIEGA46WW/moc_TransformEditorWidget.cpp",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/VariationInspectorWidget.hpp",
+			"MU",
+			"EWIEGA46WW/moc_VariationInspectorWidget.cpp",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/XformGraphicItem.hpp",
+			"MU",
+			"EWIEGA46WW/moc_XformGraphicItem.cpp",
 			null
 		]
 	],
@@ -51,10 +93,10 @@
 		"/opt/homebrew/lib/QtCore.framework",
 		"/opt/homebrew/share/qt/mkspecs/macx-clang",
 		"/opt/homebrew/include",
-		"/opt/homebrew/lib/QtWidgets.framework/Headers",
-		"/opt/homebrew/lib/QtWidgets.framework",
 		"/opt/homebrew/lib/QtGui.framework/Headers",
 		"/opt/homebrew/lib/QtGui.framework",
+		"/opt/homebrew/lib/QtWidgets.framework/Headers",
+		"/opt/homebrew/lib/QtWidgets.framework",
 		"/opt/homebrew/lib/QtSvg.framework/Headers",
 		"/opt/homebrew/lib/QtSvg.framework",
 		"/usr/local/include",
@@ -97,12 +139,47 @@
 	"SOURCES" : 
 	[
 		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/AnimationWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/ExportDialog.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/FlameCanvasWidget.cpp",
 			"MU",
 			null
 		],
 		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/FlameInspectorWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/FlameListWidget.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/TransformEditorWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/VariationInspectorWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/victorS/Documents/Projets/perso/ApoNeo/src/ui/XformGraphicItem.cpp",
 			"MU",
 			null
 		],

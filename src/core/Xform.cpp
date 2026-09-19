@@ -51,8 +51,8 @@ void Xform::compile_variations() {
         cv.fn = info->fn;
         cv.weight = var_weight;
 
-        for (const auto& p_name : info->param_names) {
-            cv.params.push_back(get_param(p_name, 0.0));
+        for (const auto& p_def : info->params) {
+            cv.params.push_back(get_param(p_def.name, p_def.default_val));
         }
 
         m_compiled.push_back(std::move(cv));

@@ -1,8 +1,16 @@
 #include "core/FlameGenome.hpp"
 #include "engine/CPUSIMDEngine.hpp"
-#include <cassert>
+#include <cstdlib>
 #include <iostream>
 #include <numeric>
+
+#define TEST_ASSERT(cond) \
+    do { \
+        if (!(cond)) { \
+            std::cerr << "Assertion failed: " #cond " at " << __FILE__ << ":" << __LINE__ << std::endl; \
+            std::abort(); \
+        } \
+    } while (0)
 
 void test_engine_render() {
     using namespace ApoNeo;
@@ -20,24 +28,24 @@ void test_engine_render() {
     engine.start();
     engine.wait_until_done();
 
-    assert(!engine.is_rendering());
+    TEST_ASSERT(!engine.is_rendering());
     auto progress = engine.get_progress();
-    assert(progress.is_finished);
-    assert(progress.completed_samples > 0);
+    TEST_ASSERT(progress.is_finished);
+    TEST_ASSERT(progress.completed_samples > 0);
 
     std::vector<uint8_t> rgba_buf;
     int w = 0, h = 0;
     engine.get_image_rgba8888(rgba_buf, w, h);
 
-    assert(w == 128 && h == 128);
-    assert(rgba_buf.size() == 128 * 128 * 4);
+    TEST_ASSERT(w == 128 && h == 128);
+    TEST_ASSERT(rgba_buf.size() == 128 * 128 * 4);
 
     // Verify some non-zero pixels exist (fractal rendered)
     uint64_t sum_colors = 0;
     for (uint8_t byte : rgba_buf) {
         sum_colors += byte;
     }
-    assert(sum_colors > 0);
+    TEST_ASSERT(sum_colors > 0);
 
     std::cout << "  -> Render completed successfully! Total color sum: " << sum_colors
               << " (" << progress.iterations_per_second / 1e6 << " Miter/s)" << std::endl;

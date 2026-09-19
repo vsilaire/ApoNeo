@@ -8,8 +8,12 @@ ApoNeoCore_autogen/timestamp: \
 	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/FlameXml.hpp \
 	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Palette.cpp \
 	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Palette.hpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/RandomFlameGenerator.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/RandomFlameGenerator.hpp \
 	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Variation.cpp \
 	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Variation.hpp \
 	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Xform.cpp \
 	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/Xform.hpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/commands/Commands.cpp \
+	/Users/victorS/Documents/Projets/perso/ApoNeo/src/core/commands/Commands.hpp \
 	/opt/homebrew/bin/cmake

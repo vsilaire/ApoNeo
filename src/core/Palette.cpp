@@ -14,13 +14,14 @@ Palette::Palette() {
 }
 
 ColorRGBA Palette::sample(double index) const noexcept {
-    // Wrap index into [0.0, 1.0)
-    index = index - std::floor(index);
-    if (index < 0.0) index += 1.0;
+    if (index < 0.0 || index > 1.0) {
+        index = index - std::floor(index);
+    }
+    index = std::clamp(index, 0.0, 1.0);
 
-    const double pos = index * static_cast<double>(PALETTE_SIZE);
-    const size_t i0 = static_cast<size_t>(pos) % PALETTE_SIZE;
-    const size_t i1 = (i0 + 1) % PALETTE_SIZE;
+    const double pos = index * static_cast<double>(PALETTE_SIZE - 1);
+    const size_t i0 = static_cast<size_t>(pos);
+    const size_t i1 = std::min(i0 + 1, PALETTE_SIZE - 1);
     const float frac = static_cast<float>(pos - static_cast<double>(i0));
 
     const ColorRGBA& c0 = m_colors[i0];
